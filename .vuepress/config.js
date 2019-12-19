@@ -3,7 +3,6 @@ const nav = require("./navbar")
 
 const config = {
     title: "Erela.js",
-    description: "The official documentation website for the lavalink client you all love, Erela.js!",
     head: [
 		["link", { rel: "icon", href: "/images/favicon.png", alt: "erela.js logo" }],
 		["meta", { name: "og:title", content: "Erela.js Documentation" }],
@@ -13,20 +12,19 @@ const config = {
 		["meta", { name: "og:locale", content: "en_US" }],
 	],
     theme: "yuu",
-    repo: "strandxo/erela-docs",
-    docsDir: "#",
-    editLinks: true,
-    editLinks: true,
-    sidebarDepth: 2,
     themeConfig: {
-        yuu: {
-            disableThemeIgnore: true
-		},
+        yuu: { disableThemeIgnore: true },
         nav,
         sidebar,
         searchMaxSuggestions: 5,
+        sidebarDepth: 2,
         searchPlaceholder: "Search Docs...",
         lastUpdated: "Last Updated",
+        repo: "strandxo/erela-docs",
+        docsDir: "docs",
+        editLinks: true,
+        docsBranch: "master",
+        editLinkText: "Edit on GitHub!",
     }
 };
 

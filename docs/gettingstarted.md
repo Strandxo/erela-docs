@@ -22,7 +22,7 @@ Download the jar from the [CL server](https://ci.fredboat.com/viewLog.html?build
 
 Put a application.yml file in your working directory and copy the [example](https://github.com/Frederikam/Lavalink/blob/master/LavalinkServer/application.yml.example) into the created file and edit it with your configuration.
 
-Run the jar file using [`java -jar Lavalink.jar`]()
+Run the jar file using [`java -jar Lavalink.jar`](#)
 
 ## Things you should know
 ---
@@ -126,3 +126,12 @@ client.once("ready", () => {
     });
 });
 ```
+
+## Tutorials
+---
+Below you will find youtube playlists that display channels using Erela.js for their tutorials.
+
+- <a href="https://www.youtube.com/playlist?list=PLWnw41ah3I4buf2IbqdsV8o2hb3ekFKF5" target="_blank">MenuDocs Tutorial Series</a>  
+---  
+
+*If you would like to join everyone else on this list then please join [The War Room](https://discord.gg/5dTpady), the support discord for War's projects, and contact [`WarHammer414 | 夜の星#1969`]()*

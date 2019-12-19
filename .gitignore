@@ -1,8 +1,6 @@
 .DS_Store
 .lock
 node_modules
-docs
-/dist
 
 # Log files
 npm-debug.log*

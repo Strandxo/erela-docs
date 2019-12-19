@@ -1,6 +1,6 @@
 const navbar = [
     { text: "Home", link: "/" },
-    { text: "Documentation", link: "/docs/" },
+    { text: "Documentation", link: "/docs/gettingstarted" },
     { text: "Install", items: [
         { text: "NPM", link: "https://www.npmjs.com/package/erela.js"},
         { text: "YARN", link: "https://yarnpkg.com/en/package/erela.js"},
