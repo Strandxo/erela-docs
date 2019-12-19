@@ -21,7 +21,6 @@ const config = {
         searchPlaceholder: "Search Docs...",
         lastUpdated: "Last Updated",
         repo: "strandxo/erela-docs",
-        docsDir: "docs",
         editLinks: true,
         docsBranch: "master",
         editLinkText: "Edit on GitHub!",
