@@ -19,7 +19,7 @@ new Erela.PlayerStore(erela)
 ## Methods:  
 - ### spawn  
 > Spawns a new player, or returns the player if it exists.  
-> **Type:** *Player - The newly created Player* - The newly created Player.  
+> **Type:** *Player - The newly created Player* 
 > | Parameter <img width=1000/> | Type <img width=1000/> | Description <img width=1000/> |  
 > | :--- | :--- | :--- |  
 > | options | [PlayerOptions](/docs/Player/iplayeroptions) | The options to spawn a player with. |  
@@ -27,7 +27,7 @@ new Erela.PlayerStore(erela)
 ---
 - ### destroy  
 > Destroys a player.  
-> **Type:** *(Player|null) - The Player or null if it does not exist* - The Player or null if it does not exist.  
+> **Type:** *(Player|null) - The Player or null if it does not exist*
 > | Parameter <img width=1000/> | Type <img width=1000/> | Description <img width=1000/> |  
 > | :--- | :--- | :--- |  
 > | guildId | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | The guild ID to destroy the player with. |  

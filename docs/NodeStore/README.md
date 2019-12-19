@@ -36,7 +36,7 @@ new Erela.NodeStore(erela, nodes)
 ---
 - ### remove  
 > Removes a new Node.  
-> **Type:** *(INode|null) - The node that was removed, or null if it does not exist* - The node that was removed, or null if it does not exist.  
+> **Type:** *(INode|null) - The node that was removed, or null if it does not exist*
 > | Parameter <img width=1000/> | Type <img width=1000/> | Description <img width=1000/> |  
 > | :--- | :--- | :--- |  
 > | nodeId | [number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | The node ID. |  

@@ -29,14 +29,14 @@ new Erela.Queue(erela)
 ---
 - ### removeFrom  
 > Removes a track to the queue. Defaults to the first track.  
-> **Type:** *ITrack|null - The track that was removed, or null if the track does not exist* - The track that was removed, or null if the track does not exist.  
+> **Type:** *ITrack|null - The track that was removed, or null if the track does not exist*
 > | Parameter <img width=1000/> | Type <img width=1000/> | Description <img width=1000/> |  
 > | :--- | :--- | :--- |  
 > | [track=0] | [ITrack](/docs/Track/)\|[number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)  | The track to remove. | 
 --- 
 - ### remove  
 > Removes a track to the queue. Defaults to the first track.  
-> **Type:** *ITrack|null - The track that was removed, or null if the track does not exist* - The track that was removed, or null if the track does not exist.  
+> **Type:** *ITrack|null - The track that was removed, or null if the track does not exist* 
 > | Parameter <img width=1000/> | Type <img width=1000/> | Description <img width=1000/> |  
 > | :--- | :--- | :--- |  
 > | [track=0] | [ITrack](/docs/Track/)\|[number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | The track to remove. |  
