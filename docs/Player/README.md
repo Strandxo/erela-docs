@@ -19,7 +19,7 @@
 | [queueRepeat](#queuerepeat) |  |   
 ---  
 ## Properties:  
-- ### node  
+- ### node 
 > The players node.  
 > **Type:** *[Node](/docs/Node/)* 
 --- 
@@ -78,10 +78,18 @@
 > | volume | [number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | The volume to set. |  
 ---
 - ### setEQ  
-> Sets the players equalizer. Pass a empty array to reset the bands.  
+> Sets the players equalizer. Pass a empty array to reset the bands. Gain: -0.25 min to 1 max
 > | Parameter <img width=1000/> | Type <img width=1000/> | Description <img width=1000/> |  
 > | :--- | :--- | :--- |  
 > | bands | [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)[\<EqualizerBand\>](/docs/Player/iequalizerband) | The array of bands to set. | 
+> #### Example:
+> ```js
+> <Player>.setEQ([
+>  { band: 0, gain: 0.15 },
+>  { band: 1, gain: 0.15 },
+>  { band: 2, gain: 0.15 }
+> ]);
+> ```
 --- 
 - ### setTrackRepeat  
 > Sets the track repeat.  
