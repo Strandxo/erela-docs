@@ -1,6 +1,6 @@
 # Player  
 ---  
-# *class* **Player**   
+*class* **Player**   
 > The Player class. 
 --- 
 | Properties <img width=1000/> | Methods <img width=1000/> |   
@@ -21,7 +21,8 @@
 ## Properties:  
 - ### node 
 > The players node.  
-> **Type:** *[Node](/docs/Node/)* 
+> **Type:** *[Node](/docs/Node/)*   
+> <div style="text-align: right"> [source](https://example.com/) </div>
 --- 
 - ### options  
 > The players options.  

@@ -12,7 +12,11 @@ const sidebar = {
 		{
 			title: "Node",
 			children: [
-				"/docs/Node/"
+				"/docs/Node/",
+				"/docs/Node/INodeStats",
+				"/docs/Node/INodeCPUStats",
+				"/docs/Node/INodeFrameStats",
+				"/docs/Node/INodeMemoryStats"
 			],
 		},
 		{

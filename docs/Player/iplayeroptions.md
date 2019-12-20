@@ -1,6 +1,6 @@
 # IPlayerOptions  
 ---  
-# *interface* **IPlayerOptions**   
+*interface* **IPlayerOptions**   
 > The IPlayerOptions interface. 
 --- 
 | Properties <img width=1000/> |   

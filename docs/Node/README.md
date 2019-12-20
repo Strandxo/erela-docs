@@ -29,7 +29,7 @@ new Erela.Node(erela, options)
 ---
 - ### stats  
 > The stats for the node.  
-> **Type:** *INodeStats*  
+> **Type:** *[INodeStats](/docs/Node/INodeStats)*  
 ---
 - ### reconnectAttempts  
 > The amount the node will try to reconnect.  
