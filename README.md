@@ -3,7 +3,7 @@ home: true
 heroImage: /images/transparent_logo.png
 heroText: Erela.js Documentation
 tagline: The official documentation website for the lavalink client you all love, Erela.js!
-actionText: Get Started →
+actionText: Documentation →
 actionLink: /docs/gettingstarted
 features:
 - title: Useability First
