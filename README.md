@@ -12,5 +12,5 @@ features:
   details: Erela is a powerful, functionality rich client that will benefit your lavalink music experience.
 - title: Adaptive
   details: With a project purposefully designed to allow any outside modification, you can extend any class with ease!
-footer: © Developed by Connor Strand | 2019
+footer: © Developed by Connor Moriarty | 2019
 ---

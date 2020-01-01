@@ -1,8 +1,8 @@
 # INodeMemoryStats  
 ---  
 *interface* **INodeMemoryStats**   
-> The INodeMemoryStats interface.
----  
+> The INodeMemoryStats interface.  
+---
 | Properties <img width=1000/> |   
 | :--- |   
 | [free](#free) |   

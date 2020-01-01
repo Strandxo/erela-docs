@@ -1,14 +1,16 @@
 # INodeStats  
 ---  
 *interface* **INodeStats**   
-> The INodeStats interface. 
---- 
+> The INodeStats interface.  
+---
 | Properties <img width=1000/> |   
 | :--- |   
 | [players](#players) |   
 | [playingPlayers](#playingplayers) |   
 | [uptime](#uptime) |   
 | [memory](#memory) |   
+| [cpu](#cpu) |   
+| [frameStats](#framestats) |   
 ---  
 ## Properties:  
 - ### players  
@@ -23,3 +25,9 @@
 - ### memory  
 > The nodes memory stats.  
 > **Type:** *[INodeMemoryStats](/docs/Node/INodeMemoryStats)*  
+- ### cpu  
+> The nodes CPU stats.  
+> **Type:** *[INodeCPUStats](/docs/Node/INodeCPUStats)*  
+- ### frameStats  
+> The nodes frame stats.  
+> **Type:** *[INodeFrameStats](/docs/Node/INodeFrameStats)*  

@@ -1,16 +1,16 @@
 # NodeStore  
 ---  
-*class* **NodeStore** *extends* **[Collection<number, Node>](https://discord.js.org/#/docs/main/stable/class/Collection)**  
+*class* **NodeStore** *extends* **[Collection<number, Node>](undefined)**  
 > The NodeStore class.  
 ---
-### Constructor
+- Constructor
 ```javascript
 new Erela.NodeStore(erela, nodes)
 ```
 | Parameter <img width=1000/> | Type <img width=1000/> | Description <img width=1000/> |  
 | :--- | :--- | :--- |  
 | erela | [ErelaClient](/docs/ErelaClient/) | The ErelaClient. |  
-| nodes | [INodeOptions[]](/docs/ErelaClient/inodeoptions) | The INodeOptions array. |  
+| nodes | [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)\<[INodeOptions](/docs/ErelaClient/INodeOptions)\> | The INodeOptions array. |  
 ---  
 | Properties <img width=1000/> | Methods <img width=1000/> |   
 | :--- | :--- |   
@@ -20,24 +20,20 @@ new Erela.NodeStore(erela, nodes)
 ## Properties:  
 - ### leastUsed  
 > Filters the connected nodes and sorts them by the amount of rest calls it has made.  
-> **Type:** *[Collection\<number, Node\>](https://discord.js.org/#/docs/main/stable/class/Collection)*  
----
+> **Type:** *[Collection](/docs/undefined/Collection)\<[number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number), [Node](/docs/Node)\>*  
 - ### leastLoad  
 > Filters the connected nodes and sorts them by the least resource usage.  
-> **Type:** *[Collection\<number, Node\>](https://discord.js.org/#/docs/main/stable/class/Collection)*  
----
+> **Type:** *[Collection](/docs/undefined/Collection)\<[number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number), [Node](/docs/Node)\>*  
 ## Methods:  
 - ### spawn  
 > Adds a new Node.  
 > | Parameter <img width=1000/> | Type <img width=1000/> | Description <img width=1000/> |  
 > | :--- | :--- | :--- |  
-> | node | [NodeOptions](/docs/ErelaClient/inodeoptions) | The node options. |  
-> | [extra={}] | [object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) | The nodes extra data to pass when extending for custom classes. |  
----
+> | node | [INodeOptions](/docs/ErelaClient/INodeOptions) | The node options. |  
+> | [extra={}] | [object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/object) | The nodes extra data to pass when extending for custom classes. |  
 - ### remove  
 > Removes a new Node.  
-> **Type:** *(INode|null) - The node that was removed, or null if it does not exist*
+> **Returns:** *[INode](/docs/undefined/INode)[null](/docs/undefined/null)* - The node that was removed, or null if it does not exist.  
 > | Parameter <img width=1000/> | Type <img width=1000/> | Description <img width=1000/> |  
 > | :--- | :--- | :--- |  
-> | nodeId | [number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | The node ID. |  
----
+> | nodeId | [number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number) | The node ID. |  

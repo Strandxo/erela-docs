@@ -5,8 +5,8 @@ const sidebar = {
 			title: "ErelaClient",
 			children: [
 				"/docs/ErelaClient/",
-				"/docs/ErelaClient/ierelaoptions",
-				"/docs/ErelaClient/inodeoptions",
+				"/docs/ErelaClient/IErelaOptions",
+				"/docs/ErelaClient/INodeOptions",
 			],
 		},
 		{
@@ -29,8 +29,8 @@ const sidebar = {
 			title: "Player",
 			children: [
 				"/docs/Player/",
-				"/docs/Player/iplayeroptions",
-				"/docs/Player/iequalizerband",
+				"/docs/Player/IPlayerOptions",
+				"/docs/Player/IEqualizerBand",
 			],
 		},
 		{
@@ -49,9 +49,9 @@ const sidebar = {
 			title: "SearchResult",
 			children: [
 				"/docs/SearchResult/",
-				"/docs/SearchResult/iplaylistinfo",
-				"/docs/SearchResult/searchresult",
-				"/docs/SearchResult/iexception"
+				"/docs/SearchResult/IPlaylist",
+				"/docs/SearchResult/IPlaylistInfo",
+				"/docs/SearchResult/IException"
 			],
 		},
 		{
@@ -64,8 +64,8 @@ const sidebar = {
 			title: "Utilities",
 			children: [
 				"/docs/Utils/",
-				"/docs/Utils/formattime",
-				"/docs/Utils/parsetime",
+				"/docs/Utils/FormatTime",
+				"/docs/Utils/ParseTime",
 			],
 		},
 	],

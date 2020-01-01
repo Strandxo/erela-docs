@@ -1,8 +1,8 @@
 # IEqualizerBand  
 ---  
 *interface* **IEqualizerBand**   
-> The IEqualizerBand interface. 
---- 
+> The IEqualizerBand interface.  
+---
 | Properties <img width=1000/> |   
 | :--- |   
 | [band](#band) |   
@@ -11,9 +11,7 @@
 ## Properties:  
 - ### band  
 > The band for the equalizer band.  
-> **Type:** *[number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)*  
----
+> **Type:** *[number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number)*  
 - ### gain  
 > The gain for the equalizer band.  
-> **Type:** *[number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)*  
----
+> **Type:** *[number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number)*  

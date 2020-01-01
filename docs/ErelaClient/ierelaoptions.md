@@ -14,21 +14,16 @@
 ## Properties:  
 - ### shardCount  
 > Shard count.  
-> **Type:** *[number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)*  
----
+> **Type:** *[number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number)*  
 - ### player  
 > The custom Player class.  
-> **Type:** *Type[\<Player\>](/docs/Player/)*  
----
+> **Type:** *[Player](/docs/Player)*  
 - ### node  
 > The custom Node class.  
-> **Type:** *Type[\<Node\>](/docs/Node/)*  
----
+> **Type:** *[Node](/docs/Node)*  
 - ### track  
 > The custom Track class.  
-> **Type:** *Type[\<Track\>](/docs/Track/)*  
----
+> **Type:** *[Track](/docs/Track)*  
 - ### queue  
 > The custom Queue class.  
-> **Type:** *Type[\<Queue\>](/docs/Queue/)*  
----
+> **Type:** *[Queue](/docs/Queue)*  

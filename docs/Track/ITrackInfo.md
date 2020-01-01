@@ -1,34 +1,19 @@
-# Track  
+# ITrackInfo  
 ---  
-*class* **Track**   
-> The Track class.  
+*interface* **ITrackInfo**   
+> The ITrackInfo interface.  
 ---
-- Constructor
-```javascript
-new Erela.Track(data, user)
-```
-| Parameter <img width=1000/> | Type <img width=1000/> | Description <img width=1000/> |  
-| :--- | :--- | :--- |  
-| data | [ITrackData](/docs/Track/ITrackData) | The data to pass. |  
-| user | [User](https://discord.js.org/#/docs/main/stable/class/User) | The user who requested the track. |  
----  
 | Properties <img width=1000/> |   
 | :--- |   
-| [track](#track) |   
 | [identifier](#identifier) |   
 | [isSeekable](#isseekable) |   
 | [author](#author) |   
-| [duration](#duration) |   
+| [length](#length) |   
 | [isStream](#isstream) |   
 | [title](#title) |   
 | [uri](#uri) |   
-| [thumbnail](#thumbnail) |   
-| [user](#user) |   
 ---  
 ## Properties:  
-- ### track  
-> The base 64 encoded track.  
-> **Type:** *[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string)*  
 - ### identifier  
 > The track's identifier.  
 > **Type:** *[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string)*  
@@ -38,8 +23,8 @@ new Erela.Track(data, user)
 - ### author  
 > The author of the track.  
 > **Type:** *[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string)*  
-- ### duration  
-> The track's duration.  
+- ### length  
+> The track's length.  
 > **Type:** *[number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number)*  
 - ### isStream  
 > Whether the track is a string.  
@@ -50,9 +35,3 @@ new Erela.Track(data, user)
 - ### uri  
 > The track's URI.  
 > **Type:** *[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string)*  
-- ### thumbnail  
-> The track's thumbnail.  
-> **Type:** *[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string)*  
-- ### user  
-> The user who requested the track.  
-> **Type:** *[User](https://discord.js.org/#/docs/main/stable/class/User)*  
