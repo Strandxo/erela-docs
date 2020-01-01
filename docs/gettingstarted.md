@@ -124,10 +124,7 @@ client.once("ready", () => {
 ## Notes
 
 Erela.js works with discord.js versions master and stable.
-
 Only searches Youtube (At the time of creating this only Youtube worked for Lavalink).
-
-Documentation is a work-in-progress.
 
 ## Tutorials
 ---
@@ -138,9 +135,14 @@ Below you will find youtube playlists that display channels using Erela.js for t
 
 *If you would like to join everyone else on this list then please join [The War Room](https://discord.gg/5dTpady), the support discord for War's projects, and contact [`WarHammer414 | 夜の星#1969`]()*
 
-## Author of Erela.js
+## Development Team:
 
-👤 **WarHammer414**
+👤 **WarHammer414** (Package Developer)
 
-- Website: <https://warhammer.codes/>
+- Website: <https://warhammer.codes>
 - Github: [@WarHammer414](https://github.com/WarHammer414)
+
+👤 **Connor Moriarty** (Documentation Developer)
+
+- Website: *Coming soon*
+- Github: [@Strandxo](https://github.com/Strandxo)
