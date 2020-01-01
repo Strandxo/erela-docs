@@ -123,8 +123,8 @@ client.once("ready", () => {
 
 ## Notes
 
-Erela.js works with discord.js versions master and stable.
-Only searches Youtube (At the time of creating this only Youtube worked for Lavalink).
+- Erela.js works with discord.js versions master and stable.  
+- Only searches Youtube (At the time of creating this only Youtube worked for Lavalink).
 
 ## Tutorials
 ---
