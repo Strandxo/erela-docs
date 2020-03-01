@@ -21,7 +21,7 @@ new Erela.ErelaClient(client, nodes, [options=defaultOptions])
 | [node](#node) |  | [trackStart](#trackstart) |   
 | [player](#player) |  | [trackEnd](#trackend) |   
 | [queue](#queue) |  | [trackStuck](#trackstuck) |   
-| [track](#track) |  | [trackStuck](#trackstuck) |   
+| [track](#track) |  | [trackError](#trackerror) |   
 | [players](#players) |  | [queueEnd](#queueend) |   
 | [nodes](#nodes) |  | [socketClosed](#socketclosed) |   
 |  |  | [nodeCreate](#nodecreate) |   
@@ -103,7 +103,7 @@ new Erela.ErelaClient(client, nodes, [options=defaultOptions])
 > | player | [Player](/docs/Player/) | The player that has the track. |  
 > | track | [Track](/docs/Track/) | The track that ended. |  
 > | message | any | The message for the event. |  
-- ### trackStuck  
+- ### trackError  
 > Emitted when a track errors during playback.  
 > | Parameter <img width=1000/> | Type <img width=1000/> | Description <img width=1000/> |  
 > | :--- | :--- | :--- |  
